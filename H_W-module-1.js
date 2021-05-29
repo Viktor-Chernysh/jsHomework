@@ -426,24 +426,10 @@
 
 
 // =========36
-function checkForSpam(message) {
-  let result;
-  // Change code below this line
-switch(message.toLowerCase()) {
-  case message.includes('spam', 'sale'):
-    result = true;
-    break;
-    
-  default:
-    result = false;
-}
-  // Change code above this line
-  return result;
-}
 // function checkForSpam(message) {
 //   let result;
 //   // Change code below this line
-// result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale') ? true:false;
+// result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale');
 //   // Change code above this line
 //   return result;
 // }
