@@ -271,4 +271,179 @@
 
 
 // =======27
+// function getSubscriptionPrice(type) {
+//   let price;
+//   // Change code below this line
 
+//  switch (type) { // Change this line
+//     case "starter": // Change this line
+//       price = 0; // Change this line
+//       break;
+
+//     case "professional": // Change this line
+//       price = 20; // Change this line
+//       break;
+
+//     case "organization": // Change this line
+//       price = 50; // Change this line
+//       break;
+//   }
+
+//   // Change code above this line
+//   return price;
+// }
+
+
+// ========28
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//   // Change code below this line
+
+//   switch (password) {
+//     case null:
+//       message = "Canceled by user!";
+//       break;
+  
+//     case ADMIN_PASSWORD:
+//       message = "Welcome!";
+//       break;
+  
+//     default:
+//       message = "Access denied, wrong password!";
+//   }
+
+//   // Change code above this line
+//   return message;
+// }
+
+
+// ============29
+// function getShippingCost(country) {
+//   let message;
+//   let price;
+//   // Change code below this line
+// switch(country) {
+    
+//   case country = 'China':
+//     price = 100;
+//     message = `Shipping to ${country} will cost ${price} credits`;
+//     break;
+//   case country = 'Chile':
+//     price = 250;
+//     message = `Shipping to ${country} will cost ${price} credits`;
+//     break;
+    
+//   case country = 'Australia':
+//     price = 170;
+//     message = `Shipping to ${country} will cost ${price} credits`;
+//     break;
+    
+//   case country = 'Jamaica':
+//     price = 120;
+//     message = `Shipping to ${country} will cost ${price} credits`;
+//     break;
+    
+//   default:
+//   message = "Sorry, there is no delivery to your country";
+//     }
+//   // Change code above this line
+//   return message;
+// }
+
+// =================30
+// function getNameLength(name) {
+//   const length = name.length;
+//   const message = `Name ${name} is ${length} characters long`; // Change this line
+
+//   return message;
+// }
+
+
+
+// ================31
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+
+// // Change code above this line
+// console.log(courseTopicLength);
+// console.log(firstElement);
+// console.log(lastElement);
+
+
+// ========32
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length); // Change this line
+
+//   return substring;
+// }
+
+// ===========33
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+// if(message.length <= maxLength) {
+// result = message;
+// } else if(message.length > maxLength) {
+// result = `${message.slice(0, maxLength)}...`;
+// }
+//   /// Change code above this line
+//   return result;
+// }
+
+// --------------вариант2 без if--------
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+// if(message.length <= maxLength) {
+// result = message;
+// } else  {
+// result = `${message.slice(0, maxLength)}...`;
+// }
+//   /// Change code above this line
+//   return result;
+// }
+
+
+// ============34
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+
+//   return normalizedInput;
+// }
+
+
+// ==========35
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name); // Change this line
+//   return result;
+// }
+
+
+// =========36
+function checkForSpam(message) {
+  let result;
+  // Change code below this line
+switch(message.toLowerCase()) {
+  case message.includes('spam', 'sale'):
+    result = true;
+    break;
+    
+  default:
+    result = false;
+}
+  // Change code above this line
+  return result;
+}
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+// result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale') ? true:false;
+//   // Change code above this line
+//   return result;
+// }
