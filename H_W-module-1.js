@@ -362,7 +362,7 @@
 
 
 // ================31
-// const courseTopic = "JavaScript essentials";
+// // const courseTopic = "JavaScript essentials";
 // // Change code below this line
 
 // const courseTopicLength = courseTopic.length;
@@ -391,6 +391,16 @@
 // } else if(message.length > maxLength) {
 // result = `${message.slice(0, maxLength)}...`;
 // }
+//   /// Change code above this line
+//   return result;
+// }
+
+// 2 - й вариант
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+// result = message.length <= maxLength ? message : `${message.slice(0, maxLength)}...`;
 //   /// Change code above this line
 //   return result;
 // }
