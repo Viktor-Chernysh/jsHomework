@@ -266,8 +266,9 @@
 // function getProductPrice(productName) {
 //   // Change code below this line
 //   for (const product of products) {
-//   if (product.name === productName)
+//   if (product.name === productName){
 //     return product.price
+//      }
 //   }
 
 //   return null
@@ -559,18 +560,12 @@
 //     // Change code above this line
 //   },
 // };
-
-// =========destructurisation====
-// const atTheOldToad = {
+// ====================================
+// /const atTheOldToad = {
 //   potions: ["Speed potion", "Dragon breath", "Stone skin"],
 //   removePotion(potionName) {
 //     // Change code below this line
-//     for (let i = 0; i < this.potions.length; i += 1) {
-//       if (this.potions[i] === potionName) {
-//         const { potions } = this;
-//         potions.splice(potions.indexOf(potionName), 1);
-//       }
-//     }
+//     this.potions.splice(this.potions.indexOf(potionName), 1)
 //     // Change code above this line
 //   },
 // };
@@ -620,6 +615,43 @@
 //         potion.name = newName;
 //       }
 //     }
+//   },
+//   // Change code above this line
+// };
+// ======================================
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(potionName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === potionName.name) {
+//         return `Potion ${potionName} is already equipped!`;
+//       }
+//     }
+//     this.potions.push(potionName);
+//   },
+//   removePotion(potionName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === potionName) {
+//         this.potions.splice(this.potions.indexOf(potion), 1);
+//       }
+//     }
+//     return `Potion ${potionName} is not in inventory!`;
+//   },
+//   updatePotionName(oldName, newName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === oldName) {
+//         potion.name = newName;
+//       }
+//     }
+//     return `Potion ${oldName} is not in inventory!`;
 //   },
 //   // Change code above this line
 // };

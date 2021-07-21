@@ -7,16 +7,15 @@
 //   return "You are a minor";
 // }
 
-
 // =============2
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = "jqueryismyjam";
-//   // Change code below this line 
+//   // Change code below this line
 
-//   if (password === ADMIN_PASSWORD) { 
+//   if (password === ADMIN_PASSWORD) {
 //     return "Welcome!"
-//   } 
-     
+//   }
+
 //   return "Access denied, wrong password!";
 //   // Change code above this line
 // }
@@ -27,11 +26,11 @@
 
 //   if (ordered === 0) {
 //    return "Your order is empty!";
-//   } 
+//   }
 //   if (ordered > available) {
 //    return "Your order is too large, not enough goods in stock!";
 //   }
-  
+
 //   return "The order is accepted, our manager will contact you";
 // }
 
@@ -43,7 +42,6 @@
 // const secondElement = fruits[1];
 // const lastElement = fruits[fruits.length - 1];
 
-
 // ================6
 // const fruits = ["apple", "plum", "pear", "orange"];
 
@@ -51,13 +49,11 @@
 // fruits[1] = "peach";
 // fruits[3] = "banana";
 
-
 // =============7
 // const fruits = ["apple", "peach", "pear", "banana"];
 
 // // Change code below this line
 // const fruitsArrayLength = fruits.length;
-
 
 // ==============8
 // const fruits = ["apple", "peach", "pear", "banana"];
@@ -65,7 +61,6 @@
 // // Change code below this line
 // const lastElementIndex = fruits.length - 1;
 // const lastElement = fruits[lastElementIndex]
-
 
 // ==================9
 // function getExtremeElements(array) {
@@ -76,7 +71,7 @@
 
 //   // Change code above this line
 // }
-                //  Variant 2
+//  Variant 2
 //  function getExtremeElements(array) {
 //   // Change code below this line
 
@@ -94,7 +89,6 @@
 //   return words;
 // }
 
-
 // ================11
 // function calculateEngravingPrice(message, pricePerWord) {
 //    // Change code below this line
@@ -102,7 +96,6 @@
 //    // Change code above this line
 // }
 
-           
 // ================12
 // function makeStringFromArray(array, delimeter) {
 //   let string;
@@ -129,30 +122,28 @@
 // const nonExtremeEls = fruits.slice(1, 4);
 // const lastThreeEls = fruits.slice(-3);
 
-
 // ===================15
 // const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
 // const newClients = ['Peach', 'Houston'];
 
 // const allClients = oldClients.concat(newClients); // Change this line
 
-
 // ===============16
 // function makeArray(firstArray, secondArray, maxLength) {
 //     // Change code below this line
 
 // const newArray = firstArray.concat(secondArray);
- 
+
 //   if (newArray.length > maxLength) {
 //      newArray.length = maxLength
 //   return newArray.slice()
 //   }
-  
+
 // return newArray
 //     // Change code above this line
 //   }
 
-                    //  Variant2
+//  Variant2
 // function makeArray(firstArray, secondArray, maxLength) {
 //     // Change code below this line
 // let newArray = firstArray.concat(secondArray);
@@ -162,7 +153,6 @@
 //     // Change code above this line
 //   }
 
-
 // =======================17
 // const start = 3;
 // const end = 7;
@@ -170,7 +160,6 @@
 // for (let i = start; i <= end; i += 1) { // Change this line
 //   console.log(i);
 // }
-
 
 // ===============18
 // function calculateTotal(number) {
@@ -191,7 +180,6 @@
 //   const fruit = fruits[i]; // Change this line
 //   console.log(fruit);
 // }
-
 
 // ====================22
 // function calculateTotalPrice(order) {
@@ -219,7 +207,6 @@
 //   // Change code above this line
 // }
 
-
 // ==================22
 // function createArrayOfNumbers(min, max) {
 //   const numbers = [];
@@ -232,14 +219,13 @@
 //   return numbers;
 // }
 
-
 // ======================23
 // function filterArray(numbers, value) {
 //   // Change code below this line
-//   const newArray = [] 
+//   const newArray = []
 // for (let number of numbers) {
 //   if (number > value) {
-    
+
 //       newArray.push(number)
 //   }
 // }
@@ -269,7 +255,6 @@
 //  // Change code above this line
 // }
 
-
 // ================26
 // function calculateTotalPrice(order) {
 //   let total = 0;
@@ -289,7 +274,7 @@
 //   const filteredNumbers = [];
 
 //   for (let number of numbers) {
-    
+
 //     if (number > value) {
 //       filteredNumbers.push(number);
 //     }
@@ -306,13 +291,12 @@
 // const d = 12 % 7;
 // const e = 8 % 3;
 
-
 // =======================29
 // function getEvenNumbers(start, end) {
 //    // Change code below this line
 // const newArray = [];
 //   for (let i = start; i <= end; i += 1) {
-//   if (i % 2 === 0) { 
+//   if (i % 2 === 0) {
 //   newArray.push(i)
 //   }
 //   }
@@ -320,7 +304,6 @@
 
 //     // Change code above this line
 //   }
-
 
 // ==========================30
 // const start = 6;
@@ -338,7 +321,7 @@
 // function findNumber(start, end, divisor) {
 //   // Change code below this line
 //   for (let i = start; i < end; i += 1) {
-//     if (i % divisor === 0) {      
+//     if (i % divisor === 0) {
 //       return i;
 //     }
 //   }
@@ -346,7 +329,6 @@
 //   return i;
 //   // Change code above this line
 // }
-
 
 // =================32
 // function includes(array, value) {
